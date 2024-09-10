@@ -53,7 +53,7 @@ namespace WPFTourGuide.MainContent {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFTourGuide;component/maincontent/halongbay.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFTourGuide;V1.0.0.0;component/maincontent/halongbay.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\MainContent\HaLongBay.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

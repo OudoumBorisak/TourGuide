@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\WPFTourGuide\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\navigation\\sea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|solutionrelative:wpftourguide\\navigation\\sea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\navigation\\sea.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|solutionrelative:wpftourguide\\navigation\\sea.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\navigation\\sea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|solutionrelative:wpftourguide\\navigation\\sea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\maincontent\\halongbay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SEA.xaml",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\SEA.xaml",
               "RelativeDocumentMoniker": "WPFTourGuide\\Navigation\\SEA.xaml",
@@ -130,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SEA.xaml.cs",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\SEA.xaml.cs",
               "RelativeDocumentMoniker": "WPFTourGuide\\Navigation\\SEA.xaml.cs",

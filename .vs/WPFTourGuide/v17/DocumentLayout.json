@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|solutionrelative:wpftourguide\\navigation\\sea.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\maincontent\\angkorwat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|solutionrelative:wpftourguide\\maincontent\\angkorwat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\image\\angkorwat.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|solutionrelative:wpftourguide\\image\\angkorwat.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\navigation\\sea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|solutionrelative:wpftourguide\\navigation\\sea.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\maincontent\\gardenbythebay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|solutionrelative:wpftourguide\\maincontent\\gardenbythebay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\maincontent\\angkorwat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|solutionrelative:wpftourguide\\maincontent\\angkorwat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F05D3C04-D76D-4294-9A87-F17B8477CD54}|WPFTourGuide\\WPFTourGuide.csproj|d:\\wpftourguide\\wpftourguide\\maincontent\\bali.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,39 +86,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GardenByTheBay.xaml",
-              "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\GardenByTheBay.xaml",
-              "RelativeDocumentMoniker": "WPFTourGuide\\MainContent\\GardenByTheBay.xaml",
-              "ToolTip": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\GardenByTheBay.xaml",
-              "RelativeToolTip": "WPFTourGuide\\MainContent\\GardenByTheBay.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-10T11:11:51.602Z",
+              "DocumentIndex": 2,
+              "Title": "AngkorWat.jpg",
+              "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Image\\AngkorWat.jpg",
+              "RelativeDocumentMoniker": "WPFTourGuide\\Image\\AngkorWat.jpg",
+              "ToolTip": "D:\\WPFTourGuide\\WPFTourGuide\\Image\\AngkorWat.jpg",
+              "RelativeToolTip": "WPFTourGuide\\Image\\AngkorWat.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-10T16:16:34.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Bali.xaml",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\Bali.xaml",
               "RelativeDocumentMoniker": "WPFTourGuide\\MainContent\\Bali.xaml",
               "ToolTip": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\Bali.xaml",
               "RelativeToolTip": "WPFTourGuide\\MainContent\\Bali.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-10T11:10:52.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T11:10:52.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HaLongBay.xaml",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\HaLongBay.xaml",
               "RelativeDocumentMoniker": "WPFTourGuide\\MainContent\\HaLongBay.xaml",
               "ToolTip": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\HaLongBay.xaml",
               "RelativeToolTip": "WPFTourGuide\\MainContent\\HaLongBay.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-10T11:10:18.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T11:10:18.21Z"
             },
             {
               "$type": "Document",
@@ -131,19 +133,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SEA.xaml.cs",
-              "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\SEA.xaml.cs",
-              "RelativeDocumentMoniker": "WPFTourGuide\\Navigation\\SEA.xaml.cs",
-              "ToolTip": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\SEA.xaml.cs",
-              "RelativeToolTip": "WPFTourGuide\\Navigation\\SEA.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T09:50:44.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "AngkorWat.xaml",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\AngkorWat.xaml",
               "RelativeDocumentMoniker": "WPFTourGuide\\MainContent\\AngkorWat.xaml",
@@ -156,6 +145,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "GardenByTheBay.xaml",
+              "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\GardenByTheBay.xaml",
+              "RelativeDocumentMoniker": "WPFTourGuide\\MainContent\\GardenByTheBay.xaml",
+              "ToolTip": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\GardenByTheBay.xaml",
+              "RelativeToolTip": "WPFTourGuide\\MainContent\\GardenByTheBay.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T11:11:51.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SEA.xaml.cs",
+              "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\SEA.xaml.cs",
+              "RelativeDocumentMoniker": "WPFTourGuide\\Navigation\\SEA.xaml.cs",
+              "ToolTip": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\SEA.xaml.cs",
+              "RelativeToolTip": "WPFTourGuide\\Navigation\\SEA.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:50:44.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Bali.xaml.cs",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\MainContent\\Bali.xaml.cs",
               "RelativeDocumentMoniker": "WPFTourGuide\\MainContent\\Bali.xaml.cs",
@@ -163,24 +175,22 @@
               "RelativeToolTip": "WPFTourGuide\\MainContent\\Bali.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:00:50.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T15:00:50.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Bangkok.jpg",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Image\\Bangkok.jpg",
               "RelativeDocumentMoniker": "WPFTourGuide\\Image\\Bangkok.jpg",
               "ToolTip": "D:\\WPFTourGuide\\WPFTourGuide\\Image\\Bangkok.jpg",
               "RelativeToolTip": "WPFTourGuide\\Image\\Bangkok.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-09-10T11:12:34.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T11:12:34.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPFTourGuide\\MainWindow.xaml.cs",
@@ -188,12 +198,11 @@
               "RelativeToolTip": "WPFTourGuide\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:40:50.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:40:50.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Content.xaml.cs",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\Content.xaml.cs",
               "RelativeDocumentMoniker": "WPFTourGuide\\Navigation\\Content.xaml.cs",
@@ -201,24 +210,22 @@
               "RelativeToolTip": "WPFTourGuide\\Navigation\\Content.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:51:19.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:51:19.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Content.xaml",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\Content.xaml",
               "RelativeDocumentMoniker": "WPFTourGuide\\Navigation\\Content.xaml",
               "ToolTip": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\Content.xaml",
               "RelativeToolTip": "WPFTourGuide\\Navigation\\Content.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-09T20:49:25.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:49:25.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPFTourGuide\\MainWindow.xaml",
@@ -229,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Europe.xaml",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\Europe.xaml",
               "RelativeDocumentMoniker": "WPFTourGuide\\Navigation\\Europe.xaml",
@@ -240,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Europe.xaml.cs",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\Navigation\\Europe.xaml.cs",
               "RelativeDocumentMoniker": "WPFTourGuide\\Navigation\\Europe.xaml.cs",
@@ -252,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "WPFTourGuide\\AssemblyInfo.cs",
@@ -264,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "WPFTourGuide.csproj",
               "DocumentMoniker": "D:\\WPFTourGuide\\WPFTourGuide\\WPFTourGuide.csproj",
               "RelativeDocumentMoniker": "WPFTourGuide\\WPFTourGuide.csproj",

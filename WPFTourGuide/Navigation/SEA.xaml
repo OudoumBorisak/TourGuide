@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="800" 
              d:DesignWidth="300"
-             Background="LightBlue"
+             Background="#3C3D37"
              HorizontalAlignment="Stretch"
              VerticalAlignment="Stretch">
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
@@ -20,30 +20,30 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            <TextBlock Text="Choose your location!" FontSize="23" Margin="20,20,20,20"/>
+            <TextBlock Text="Choose your location!" FontSize="23" Margin="20,20,20,20" Foreground="#ECDFCC"/>
         </Grid>
         
         <Grid Grid.Row="1">
             <Button Name="AngkorWatButton" Content="Angkor Wat" Width="250" Height="50"
-                Background="#007BFF" Foreground="White" FontSize="16" BorderBrush="Transparent"
+                Background="#697565" Foreground="White" FontSize="16" BorderBrush="Transparent"
                 Click="AngkorWatButton_Click" Margin="20"/>
         </Grid>
 
         <Grid Grid.Row="2">
             <Button Name="BaliButton" Content="Bali" Width="250" Height="50"
-                Background="#007BFF" Foreground="White" FontSize="16" BorderBrush="Transparent"
+                Background="#697565" Foreground="White" FontSize="16" BorderBrush="Transparent"
                 Click="BaliButton_Click" Margin="20" />
         </Grid>
 
         <Grid Grid.Row="3">
         <Button Name="HaLongBayButton" Content="Ha Long Bay" Width="250" Height="50"
-                Background="#007BFF" Foreground="White" FontSize="16" BorderBrush="Transparent"
+                Background="#697565" Foreground="White" FontSize="16" BorderBrush="Transparent"
                 Click="HaLongBayButton_Click"  Margin="20" />
         </Grid>
 
         <Grid Grid.Row="4">
             <Button Name="GardenByTheBayButton" Content="Garden By The Bay" Width="250" Height="50"
-                Background="#007BFF" Foreground="White" FontSize="16" BorderBrush="Transparent"
+                Background="#697565" Foreground="White" FontSize="16" BorderBrush="Transparent"
                 Click="GardenByTheBayButton_Click"  Margin="20" />
         </Grid>
         

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPFTourGuide")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ea6c75516bfbc509f21f0ac3517d385330aaa99")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPFTourGuide")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPFTourGuide")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
