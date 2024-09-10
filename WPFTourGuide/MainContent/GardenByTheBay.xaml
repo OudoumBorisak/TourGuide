@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="WPFTourGuide.MainContent.GardenByTheBay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFTourGuide.MainContent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" 
+             d:DesignWidth="800"
+             Background="LightGray">
+    <Grid>
+        <!-- Main Grid Definitions -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <!-- For image -->
+            <ColumnDefinition Width="2*" />
+            <!-- For description and attractions -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Tour Image -->
+        <Border Grid.Column="0" Margin="10" CornerRadius="10">
+            <Image Source="/Image/GardenByTheBay.jpg" Stretch="UniformToFill" HorizontalAlignment="Center"/>
+        </Border>
+
+        <!-- Content Section -->
+        <StackPanel Grid.Column="1" Margin="10,0,0,0">
+            <!-- Title of the Tour Guide -->
+            <TextBlock Text="Garden By The Bay - All in One Package" 
+        FontSize="28" FontWeight="Bold" Foreground="#007BFF" 
+        TextWrapping="Wrap" Margin="0,10,0,10"/>
+
+            <!-- Description Text -->
+            <TextBlock Text="Gardens by the Bay in Singapore is a futuristic park known for its stunning Supertree Grove and climate-controlled domes. The park features lush gardens, innovative architecture, and spectacular light shows. It's a blend of nature and technology, offering a unique experience for visitors."
+        FontSize="16" TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+            <!-- Tourist Attractions Section -->
+            <TextBlock Text="Common Things to Know:" 
+        FontSize="22" FontWeight="Bold" Margin="0,0,0,5"/>
+
+            <!-- List of Attractions -->
+            <ScrollViewer>
+                <StackPanel>
+                    <TextBlock Text="• Local Cuisine: Singapore cuisine" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Currency: Singapore Dollar (SGD)" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Timezone: SGT (Singapore Standard Time)" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Weather: Tropical climate with high humidity year-round" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Other places of interest: Marina Bay Sands, Sentosa Island" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Singapore is generally safe but keep an out for their strict rules" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Accommodation: ranges from 100$ a night to 300$" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Meals: expects to spend 10$ to 30$ per meal at least" FontSize="16" Margin="0,5" />
+                </StackPanel>
+            </ScrollViewer>
+
+            <!-- Additional Information Button -->
+            <Button Content="Learn More" Width="120" Height="40" 
+                 Background="#007BFF" Foreground="White" 
+                 HorizontalAlignment="Left" Margin="0,20,0,0"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

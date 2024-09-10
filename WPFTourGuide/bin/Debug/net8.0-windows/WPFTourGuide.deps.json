@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WPFTourGuide/1.0.0": {
+        "runtime": {
+          "WPFTourGuide.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPFTourGuide/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
