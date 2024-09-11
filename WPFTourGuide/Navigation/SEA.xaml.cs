@@ -50,5 +50,15 @@ namespace WPFTourGuide.Navigation
                 parentWindow.RightContentControl.Content = new GardenByTheBay();
             }
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            var parentWindow = Window.GetWindow(this) as MainWindow;
+            if (parentWindow != null)
+            {
+                // Navigate back to the previous content
+                parentWindow.LeftContentControl.Content = new Content();
+            }
+        }
     }
 }

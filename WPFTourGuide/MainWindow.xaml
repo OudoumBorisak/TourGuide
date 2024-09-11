@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="TourGuide" Height="800" Width="1400"
         ResizeMode="CanResizeWithGrip">
-    <Grid>
+    <Grid Background="LightGray">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.Column="0" Background="LightBlue" x:Name="LeftColumnStackPanel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <StackPanel Grid.Column="0" Background="#3C3D37" x:Name="LeftColumnStackPanel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <ContentControl x:Name="LeftContentControl" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
         </StackPanel>
 

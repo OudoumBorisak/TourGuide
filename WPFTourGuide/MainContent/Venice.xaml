@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="WPFTourGuide.MainContent.Venice"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFTourGuide.MainContent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" 
+             d:DesignWidth="800"
+             Background="LightGray">
+    <Grid>
+        <!-- Main Grid Definitions -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <!-- For image -->
+            <ColumnDefinition Width="2*" />
+            <!-- For description and attractions -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Tour Image -->
+        <Border Grid.Column="0" Margin="10" CornerRadius="10">
+            <Image Source="/Image/Venice.jpg" Stretch="UniformToFill" HorizontalAlignment="Center"/>
+        </Border>
+
+        <!-- Content Section -->
+        <StackPanel Grid.Column="1" Margin="10,0,0,0">
+            <!-- Title of the Tour Guide -->
+            <TextBlock Text="Venice - A Mesmerizing City of Canals" 
+        FontSize="28" FontWeight="Bold" Foreground="#007BFF" 
+        TextWrapping="Wrap" Margin="0,10,0,10"/>
+
+            <!-- Description Text -->
+            <TextBlock Text="Based in Italy, Venice, a city of canals and romance, is renowned for its stunning architecture and rich history. Built on a network of over 100 small islands in a lagoon, it is famous for landmarks like St. Mark's Basilica and the Grand Canal. Its unique charm and serene beauty make it one of the most captivating cities in the world"
+        FontSize="16" TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+            <!-- Tourist Attractions Section -->
+            <TextBlock Text="Common Things to Know:" 
+        FontSize="22" FontWeight="Bold" Margin="0,0,0,5"/>
+
+            <!-- List of Attractions -->
+            <ScrollViewer>
+                <StackPanel>
+                    <TextBlock Text="• Local Cuisine: Venetian cuisine" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Currency: Euro (€)" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Timezone: Central European Time (CET), (CEST) in the summer" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Weather: Venice has a humid subtropical climate" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Other places of interest: Grand Canal, Doge’s Palace" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Beware of: Theft, Pickpocketing and Flooding" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Accommodation: ranges from €50 a night to €250" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Meals: expects to spend €10 to €50 per meal at least" FontSize="16" Margin="0,5" />
+                </StackPanel>
+            </ScrollViewer>
+
+            <Button Name="SaveToPDFButton" Content="Save" Width="120" Height="40" 
+                Background="#007BFF" Foreground="White" 
+                HorizontalAlignment="Left" Margin="0,20,0,0" Click="SaveToPDFButton_Click"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

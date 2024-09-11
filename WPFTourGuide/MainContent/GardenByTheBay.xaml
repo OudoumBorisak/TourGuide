@@ -51,10 +51,9 @@
                 </StackPanel>
             </ScrollViewer>
 
-            <!-- Additional Information Button -->
-            <Button Content="Learn More" Width="120" Height="40" 
-                 Background="#007BFF" Foreground="White" 
-                 HorizontalAlignment="Left" Margin="0,20,0,0"/>
+            <Button Name="SaveToPDFButton" Content="Save" Width="120" Height="40" 
+                Background="#007BFF" Foreground="White" 
+                HorizontalAlignment="Left" Margin="0,20,0,0" Click="SaveToPDFButton_Click"/>
         </StackPanel>
     </Grid>
 </UserControl>

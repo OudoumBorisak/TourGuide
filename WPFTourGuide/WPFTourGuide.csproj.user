@@ -13,10 +13,22 @@
     <Compile Update="MainContent\Bali.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MainContent\BigBen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainContent\Budapest.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainContent\EiffelTower.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MainContent\GardenByTheBay.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MainContent\HaLongBay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainContent\Venice.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Navigation\Content.xaml.cs">
@@ -36,10 +48,22 @@
     <Page Update="MainContent\Bali.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="MainContent\BigBen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainContent\Budapest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainContent\EiffelTower.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainContent\GardenByTheBay.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainContent\HaLongBay.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainContent\Venice.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

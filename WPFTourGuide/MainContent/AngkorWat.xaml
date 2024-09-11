@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPFTourGuide.MainContent"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800" Background="#55679C">
+             d:DesignHeight="450" d:DesignWidth="800" Background="LightGray">
     <Grid>
         <!-- Main Grid Definitions -->
         <Grid.ColumnDefinitions>
@@ -24,7 +24,7 @@
         <StackPanel Grid.Column="1" Margin="10,0,0,0">
             <!-- Title of the Tour Guide -->
             <TextBlock Text="Angkor Wat Temple - A Temple Full of Wonders" 
-               FontSize="28" FontWeight="Bold" Foreground="" 
+               FontSize="28" FontWeight="Bold" Foreground="#007BFF" 
                TextWrapping="Wrap" Margin="0,10,0,10"/>
 
             <!-- Description Text -->
@@ -49,10 +49,9 @@
                 </StackPanel>
             </ScrollViewer>
 
-            <!-- Additional Information Button -->
-            <Button Content="Learn More" Width="120" Height="40" 
-            Background="#007BFF" Foreground="White" 
-            HorizontalAlignment="Left" Margin="0,20,0,0"/>
+            <Button Name="SaveToPDFButton" Content="Save" Width="120" Height="40" 
+                        Background="#007BFF" Foreground="White" 
+                        HorizontalAlignment="Left" Margin="0,20,0,0" Click="SaveToPDFButton_Click"/>
         </StackPanel>
     </Grid>
 </UserControl>

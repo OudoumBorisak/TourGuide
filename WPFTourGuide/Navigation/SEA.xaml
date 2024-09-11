@@ -17,6 +17,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
@@ -25,26 +26,32 @@
         
         <Grid Grid.Row="1">
             <Button Name="AngkorWatButton" Content="Angkor Wat" Width="250" Height="50"
-                Background="#697565" Foreground="White" FontSize="16" BorderBrush="Transparent"
+                Background="#697565" Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
                 Click="AngkorWatButton_Click" Margin="20"/>
         </Grid>
 
         <Grid Grid.Row="2">
             <Button Name="BaliButton" Content="Bali" Width="250" Height="50"
-                Background="#697565" Foreground="White" FontSize="16" BorderBrush="Transparent"
+                Background="#697565" Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
                 Click="BaliButton_Click" Margin="20" />
         </Grid>
 
         <Grid Grid.Row="3">
         <Button Name="HaLongBayButton" Content="Ha Long Bay" Width="250" Height="50"
-                Background="#697565" Foreground="White" FontSize="16" BorderBrush="Transparent"
+                Background="#697565" Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
                 Click="HaLongBayButton_Click"  Margin="20" />
         </Grid>
 
         <Grid Grid.Row="4">
             <Button Name="GardenByTheBayButton" Content="Garden By The Bay" Width="250" Height="50"
-                Background="#697565" Foreground="White" FontSize="16" BorderBrush="Transparent"
+                Background="#697565" Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
                 Click="GardenByTheBayButton_Click"  Margin="20" />
+        </Grid>
+        
+        <Grid Grid.Row="5">
+            <Button Name="BackButton" Content="Go Back" Width="250" Height="50"
+                Background="LightSkyBlue"  Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
+                Click="BackButton_Click"  Margin="20" HorizontalAlignment="Center"/>
         </Grid>
         
     </Grid>

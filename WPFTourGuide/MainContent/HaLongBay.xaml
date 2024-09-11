@@ -25,7 +25,7 @@
         <!-- Content Section -->
         <StackPanel Grid.Column="1" Margin="10,0,0,0">
             <!-- Title of the Tour Guide -->
-            <TextBlock Text="Ha Long Bay - Drift Along the Serene Ride" 
+            <TextBlock Text="Ha Long Bay - Drift Along the Serene Sea" 
 FontSize="28" FontWeight="Bold" Foreground="#007BFF" 
 TextWrapping="Wrap" Margin="0,10,0,10"/>
 
@@ -40,21 +40,20 @@ FontSize="22" FontWeight="Bold" Margin="0,0,0,5"/>
             <!-- List of Attractions -->
             <ScrollViewer>
                 <StackPanel>
-                    <TextBlock Text="• Local Cuisine: Singapore cuisine" FontSize="16" Margin="0,5" />
-                    <TextBlock Text="• Currency: Singapore Dollar (SGD)" FontSize="16" Margin="0,5" />
-                    <TextBlock Text="• Timezone: SGT (Singapore Standard Time)" FontSize="16" Margin="0,5" />
-                    <TextBlock Text="• Weather: Tropical climate with high humidity year-round" FontSize="16" Margin="0,5" />
-                    <TextBlock Text="• Other places of interest: Marina Bay Sands, Sentosa Island" FontSize="16" Margin="0,5" />
-                    <TextBlock Text="• Singapore is generally safe but keep an out for their strict rules" FontSize="16" Margin="0,5" />
-                    <TextBlock Text="• Accommodation: ranges from 100$ a night to 300$" FontSize="16" Margin="0,5" />
-                    <TextBlock Text="• Meals: expects to spend 10$ to 30$ per meal at least" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Local Cuisine: Vietnamese cuisine" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Currency: Vietnamese Dong (VND)" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Timezone: ICT (Indochina Time)" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Weather: Tropical climate with two main seasons, summer and winter" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Other places of interest: Floating Villages, Cave Explortion" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Beware of: Drowning, and potential scams" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Accommodation: ranges from 20$ a night to 300$" FontSize="16" Margin="0,5" />
+                    <TextBlock Text="• Meals: expects to spend 5$ to 30$ per meal at least" FontSize="16" Margin="0,5" />
                 </StackPanel>
             </ScrollViewer>
 
-            <!-- Additional Information Button -->
-            <Button Content="Learn More" Width="120" Height="40" 
-         Background="#007BFF" Foreground="White" 
-         HorizontalAlignment="Left" Margin="0,20,0,0"/>
+            <Button Name="SaveToPDFButton" Content="Save" Width="120" Height="40" 
+                Background="#007BFF" Foreground="White" 
+                HorizontalAlignment="Left" Margin="0,20,0,0" Click="SaveToPDFButton_Click"/>
         </StackPanel>
     </Grid>
 </UserControl>

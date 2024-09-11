@@ -7,12 +7,12 @@
              mc:Ignorable="d" 
              d:DesignHeight="800" 
              d:DesignWidth="300"
-             Background="LightBlue"
+             Background="#3C3D37"
              HorizontalAlignment="Stretch"
              VerticalAlignment="Stretch">
-    <Grid>
-        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
@@ -20,33 +20,39 @@
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
 
-            <Grid Grid.Row="0">
-                <TextBlock Text="Choose your location!" FontSize="23" Margin="20,20,20,20"/>
-            </Grid>
-
-            <!--<Grid Grid.Row="1">
-                <Button Name="" Content="" Width="250" Height="50"
-            Background="#007BFF" Foreground="White" FontSize="16" BorderBrush="Transparent"
-            Click="" Margin="20"/>
-            </Grid>-->
-
-            <!--<Grid Grid.Row="2">
-                <Button Name="" Content="" Width="250" Height="50"
-            Background="#007BFF" Foreground="White" FontSize="16" BorderBrush="Transparent"
-            Click="" Margin="20" />
-            </Grid>-->
-
-            <!--<Grid Grid.Row="3">
-                <Button Name="" Content="" Width="250" Height="50"
-            Background="#007BFF" Foreground="White" FontSize="16" BorderBrush="Transparent"
-            Click=""  Margin="20" />
-            </Grid>-->
-
-            <!--<Grid Grid.Row="4">
-                <Button Name="" Content="" Width="250" Height="50"
-            Background="#007BFF" Foreground="White" FontSize="16" BorderBrush="Transparent"
-            Click=""  Margin="20" />
-            </Grid>-->
+        <Grid Grid.Row="0">
+            <TextBlock Text="Choose your location!" FontSize="23" Margin="20,20,20,20" Foreground="#ECDFCC"/>
         </Grid>
+
+        <Grid Grid.Row="1">
+            <Button Name="BigBenButton" Content="Big Ben" Width="250" Height="50"
+                Background="#697565" Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
+                Click="BigBenButton_Click"  Margin="20"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Button Name="BudapestButton" Content="Budapest" Width="250" Height="50"
+                Background="#697565" Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
+                Click="BudapestButton_Click"  Margin="20" />
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Button Name="EiffelTowerButton" Content="Eiffel Tower" Width="250" Height="50"
+                Background="#697565" Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
+                Click="EiffelTower_Click"  Margin="20" />
+        </Grid>
+
+        <Grid Grid.Row="4">
+            <Button Name="VeniceButton" Content="Venice" Width="250" Height="50"
+                Background="#697565" Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
+                Click="VeniceButton_Click"  Margin="20" />
+        </Grid>
+        
+        <Grid Grid.Row="5">
+            <Button Name="BackButton" Content="Go Back" Width="250" Height="50"
+        Background="LightSkyBlue"  Foreground="#ECDFCC" FontSize="16" BorderBrush="Transparent"
+        Click="BackButton_Click"  Margin="20" HorizontalAlignment="Center"/>
+        </Grid>
+        
     </Grid>
 </UserControl>

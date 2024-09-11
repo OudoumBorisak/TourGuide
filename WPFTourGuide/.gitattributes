@@ -1,0 +1,2 @@
+WPFTourGuide/bin/Debug/net8.0-windows/WPFTourGuide.dll filter=lfs diff=lfs merge=lfs -text
+WPFTourGuide/obj/Debug/net8.0-windows/WPFTourGuide.g.resources filter=lfs diff=lfs merge=lfs -text

@@ -6,21 +6,45 @@
              xmlns:local="clr-namespace:WPFTourGuide.Navigation"
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="300"
-             Background="LightBlue"
+             Background="#3C3D37"
              HorizontalAlignment="Stretch"
              VerticalAlignment="Stretch">
     <Grid>
-        <TextBlock Text="Welcome User!" FontSize="40" Margin="20"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- For header -->
+            <RowDefinition Height="Auto"/>
+            <!-- For search bar -->
+            <RowDefinition Height="Auto"/>
+            <!-- For search button -->
+            <RowDefinition Height="*"/>
+            <!-- For search results list -->
+            <RowDefinition Height="Auto"/>
+            <!-- For buttons -->
+        </Grid.RowDefinitions>
 
-        <Button Name="SEAButton" Content="Southeast Asia" Width="250" Height="50"
-        Background="#007BFF" Foreground="White" 
-        FontSize="16" BorderBrush="Transparent" 
-        Click="SEAButton_Click"  Margin="25,118,25,632"/>
+        <TextBlock Text="Welcome User!" Foreground="#ECDFCC" FontSize="40" Margin="20" HorizontalAlignment="Center" Grid.Row="0"/>
+
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Horizontal" Margin="5" Grid.Row="1">
+            <TextBox x:Name="SearchTextBox" Width="200" Height="30" Margin="25,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+            <Button x:Name="SearchButton" Content="Search" Width="60" Height="30" Background="#697565" Foreground="White"
+                FontSize="16" BorderBrush="Transparent" Click="SearchButton_Click" Margin="0,0,25,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <ListBox x:Name="ResultsListBox" Width="200" Height="60" VerticalAlignment="Top" HorizontalAlignment="Center" Background="LightGray" Foreground="White"
+            SelectionChanged="ResultsListBox_SelectionChanged" Margin="0,0,60,0" Grid.Row="2"/>
+
+        <StackPanel Orientation="Vertical" Grid.Row="3" Margin="25">
+            <Button Name="SEAButton" Content="Southeast Asia" Width="250" Height="50"
+                Background="#697565" Foreground="White" 
+                FontSize="16" BorderBrush="Transparent" 
+                Click="SEAButton_Click"  Margin="0,10,0,5"/>
 
         <Button Name="EuropeButton" Content="Europe" Width="250" Height="50"
-        Background="#28A745" Foreground="White" 
-        FontSize="16" BorderBrush="Transparent"
-        Click="EuropeButton_Click"  Margin="26,192,24,558"/>
+                Background="#697565" Foreground="White" 
+                FontSize="16" BorderBrush="Transparent"
+                Click="EuropeButton_Click"  Margin="0,5,0,0"/>
+        </StackPanel>
 
     </Grid>
 </UserControl>
